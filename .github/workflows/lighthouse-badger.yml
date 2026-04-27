@@ -37,8 +37,6 @@ jobs:
   lighthouse-badger-easy:
     runs-on: ubuntu-latest
     timeout-minutes: 8
-    permissions:
-      contents: write
     steps:
       - name: Preparatory Tasks
         run: |
@@ -51,8 +49,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ${{ env.REPOSITORY }}
-          # Fall back to the default workflow token when no PAT secret is configured.
-          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN || github.token }}
+          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
           ref: ${{ env.BRANCH }}
       - uses: actions/checkout@v4
         with:
