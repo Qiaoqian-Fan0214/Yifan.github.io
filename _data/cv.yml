@@ -21,11 +21,13 @@ cv:
         area: Artificial Intelligence
         degree: Bachelor of Engineering
         start_date: 2023
-        end_date: 2027-06 (expected)
+        end_date: 2027-06
+        summary: Expected graduation June 2027.
 
       - institution: The Hong Kong University of Science and Technology
         location: Hong Kong, China
         url: https://hkust.edu.hk/
+        area: Artificial Intelligence
         degree: Exchange Student
         start_date: 2025-09
         end_date: 2025-12
@@ -80,26 +82,18 @@ cv:
     #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: National Undergraduate Electronics Design Contest
+      # Use `name` (not `title`) so RenderCV treats entries as NormalEntry, not PublicationEntry.
+      - name: National Undergraduate Electronics Design Contest
         date: 2025-07
         awarder: China Electrotechnical Society
-        url: /assets/pdf/nuedc_award_certificate.pdf
+        url: https://qiaoqian-fan0214.github.io/assets/pdf/nuedc_award_certificate.pdf
         summary: Ranked approximately in the top 1.5% nationwide.
 
-      - title: ASC Student Supercomputer Challenge (ASC24) — Second Class Prize
-        date: 2024
+      - name: ASC Student Supercomputer Challenge (ASC24) — Second Class Prize
+        date: "2024"
         awarder: ASC24 Organizing Committee & Shanghai University
-        url: /assets/img/asc24_second_class_prize.jpg
+        url: https://qiaoqian-fan0214.github.io/assets/img/asc24_second_class_prize.jpg
         summary: Second Class Prize at ASC24 (Shanghai, China); Intelligent Computing track.
-
-    Publications:
-      - title: Nothing
-        authors:
-          -
-        publisher:
-        releaseDate:
-        url:
-        summary:
 
     Skills:
       - name: Programming
