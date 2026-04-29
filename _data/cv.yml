@@ -7,12 +7,8 @@ cv:
   summary: A third-year undergraduate student at HKUST(GZ), interested in artificial intelligence, computer vision, and machine learning.
 
   social_networks:
-    - network: Wechat
-      username: FanFan-zhxp
     - network: GitHub
       username: Qiaoqian-Fan0214
-    - network: Email
-      username: yzhao642@connect.hkust-gz.edu.cn
     - network: LinkedIn
       username: 浅-桥-086808406
 
@@ -28,11 +24,11 @@ cv:
     - institution: The Hong Kong University of Science and Technology (Guangzhou)
       location: Guangzhou, China
       url: https://www.hkust-gz.edu.cn/
-      area: 
-      studyType: Undergraduate Student
+      area: Artificial Intelligence
+      degree: Undergraduate Student
       start_date: 2023
-      end_date: June 2027(Expected)
-      GPA: ""
+      end_date: 2027-06
+      grade: ""
       courses: "Machine Learning, Deep Learning, Computer Vision"
       highlights:
         - Third-year undergraduate student.
