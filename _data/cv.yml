@@ -1,10 +1,9 @@
 cv:
   name: Yifan Zhao
-  label: Undergraduate
+  headline: Undergraduate
   email: yzhao642@connect.hkust-gz.edu.cn
   location: Guangzhou, Guangdong
-  image: "../assets/img/self_small.jpg"
-  summary: A third-year undergraduate student at HKUST(GZ), interested in artificial intelligence, computer vision, and machine learning.
+  photo: "../assets/img/self_small.jpg"
 
   social_networks:
     - network: GitHub
@@ -12,27 +11,22 @@ cv:
     - network: LinkedIn
       username: 浅-桥-086808406
 
-  address:
-    street: Duxue Road
-    city: Guangzhou
-    region: Guangdong
-    postalCode: 511453
-    countryCode: CN
-
   sections:
+    Summary:
+      - A third-year undergraduate student at HKUST(GZ), interested in artificial intelligence, computer vision, and machine learning.
     Education:
-    - institution: The Hong Kong University of Science and Technology (Guangzhou)
-      location: Guangzhou, China
-      url: https://www.hkust-gz.edu.cn/
-      area: Artificial Intelligence
-      degree: Undergraduate Student
-      start_date: 2023
-      end_date: 2027-06
-      grade: ""
-      courses: "Machine Learning, Deep Learning, Computer Vision"
-      highlights:
-        - Third-year undergraduate student.
-        - Interested in artificial intelligence, computer vision, and embodied AI.
+      - institution: The Hong Kong University of Science and Technology (Guangzhou)
+        location: Guangzhou, China
+        url: https://www.hkust-gz.edu.cn/
+        area: Artificial Intelligence
+        degree: Undergraduate Student
+        start_date: 2023
+        end_date: 2027-06
+        grade: ""
+        courses: "Machine Learning, Deep Learning, Computer Vision"
+        highlights:
+          - Third-year undergraduate student.
+          - Interested in artificial intelligence, computer vision, and embodied AI.
 
 
 
