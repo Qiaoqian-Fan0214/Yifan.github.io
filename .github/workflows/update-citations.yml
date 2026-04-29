@@ -1,10 +1,7 @@
 name: Update Google Scholar Citations
 
+# Schedule disabled: keeps _data/citations.yml minimal; re-enable cron if you want auto-updated Scholar data.
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 jobs:
